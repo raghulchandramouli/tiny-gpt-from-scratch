@@ -143,8 +143,14 @@ def elementwise_multiply(a, b):
     a, b = np.asarray(a), np.asarray(b)
     return a * b
 
-# Step 19 - scalar_broadcast_add (not yet solved)
-# TODO: implement
+# Step 19 - scalar_broadcast_add
+import numpy as np
+
+def scalar_broadcast_add(arr, scalar):
+    """Return a new array equal to arr with scalar added to every element."""
+    # TODO: add a Python scalar to every element of an array via broadcasting
+    arr = np.asarray(arr)
+    return arr + scalar
 
 # Step 20 - vector_matrix_broadcast_add (not yet solved)
 # TODO: implement
